@@ -10,10 +10,10 @@
     "platforms": {
       "steam": "",
       "vkplay": "",
-      "yandex": "https://yandex.ru/games/app/457979",
+      "yandex": "",
       "rustore": "",
       "googleplay": "",
-      "insite": "play/ObbyGaF/index.html"
+      "insite": ""
     },
     "images": {
       "capsuleMain": "assets/ObbyGaF/cover.jpg",
