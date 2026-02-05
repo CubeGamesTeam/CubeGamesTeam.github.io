@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- Заголовок ссылки -->
+    <meta property="og:title" content="Главная - CubeGamesStudio" />
+    <!-- Описание ссылки -->
+    <meta property="og:description" content="Создаём игры с душой" />
+    <!-- Картинка для превью -->
+    <meta property="og:image" content="https://cubegamesstudio.ru/assets/GaF/news_1.png" />
+    <!-- Адрес страницы -->
+    <meta property="og:url" content="https://cubegamesstudio.ru" />
+    <!-- Опционально: тип контента -->
+    <meta property="og:type" content="website" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CubeGamesStudio — Независимая студия разработки игр</title>
+    <meta name="description" content="CubeGamesStudio — команда энтузиастов, создающая уникальные и яркие игры с инновационным геймплеем и авторской графикой.">
+    <meta name="keywords" content="CubeGamesStudio, независимая студия, разработка игр, инновационный геймплей, авторская графика">
+    <link rel="canonical" href="https://cubegamesstudio.ru/">
+    <link rel="preload" href="assets/fonts/Montserrat-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/Montserrat-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/Montserrat-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/Montserrat-ExtraBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключаем шрифт -->
+    <!-- Убрали внешнюю загрузку Google Fonts во избежание FOUT/FOIT; используем локальные шрифты -->
+    <link rel="icon" href="logo.ico" type="image/x-icon" />
+</head>
+<body class="page-index" data-ready="false">
+<!-- Шапка сайта -->
+<header>
+    <div class="logo-container">
+        <a href="index.html" class="logo-link" aria-label="CubeGamesStudio — Главная">
+            <img src="assets/logo.png" alt="CubeGamesStudio Logo" class="logo">
+            <h1>CubeGamesStudio</h1>
+        </a>
+    </div>
+
+    <!-- Кнопка гамбургера -->
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+
+    <!-- Навигация -->
+    <nav id="nav-menu">
+        <a href="index.html">ГЛАВНАЯ</a>
+        <a href="news.html">НОВОСТИ</a>
+        <a href="games.html">ИГРЫ</a>
+        <a href="contacts.html">КОНТАКТЫ</a>
+    </nav>
+</header>
+
+<!-- Основной контент -->
+<main>
+    <!-- Hero-секция -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Создаём игры<br>с душой</h2>
+            <p class="hero-subtitle">
+                Независимая студия разработки игр, где каждый проект — это уникальная история
+            </p>
+            <div class="hero-buttons">
+                <a href="games.html" class="btn btn-primary">Наши игры</a>
+                <a href="news.html" class="btn btn-secondary">Последние новости</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <!-- Здесь может быть анимированная графика или изображение -->
+            <div class="cube-animation">
+                <div class="cube"></div>
+                <div class="cube"></div>
+                <div class="cube"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О студии -->
+    <section class="about">
+        <div class="container">
+            <h3>О нашей студии</h3>
+            <p>
+                Мы — команда энтузиастов, объединённых общей страстью к созданию весёлых и ярких игр.
+                Наша цель — не просто развлекать, а создавать незабываемые игровые переживания,
+                которые остаются с игроками надолго.
+            </p>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🎮</div>
+                    <h4>Инновационный геймплей</h4>
+                    <p>Каждая игра — это новый взгляд на привычные жанры</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎨</div>
+                    <h4>Уникальный стиль</h4>
+                    <p>Авторская графика и атмосфера в каждом проекте</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">❤️</div>
+                    <h4>Сделано с любовью</h4>
+                    <p>Внимание к деталям и забота о каждом игроке</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Популярные игры -->
+    <section class="featured-games">
+        <div class="container">
+            <h3>Наши игры</h3>
+            <div class="games-grid">
+                <!--тут спавнятся игры-->
+            </div>
+            <div class="section-footer">
+                <a href="games.html" class="btn btn-outline">Смотреть все игры</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Последние новости -->
+    <section class="latest-news">
+        <div class="container">
+            <h3>Последние новости</h3>
+            <div class="news-grid">
+                <!--тут спавнятся новости-->
+            </div>
+            <div class="section-footer">
+                <a href="news.html" class="btn btn-outline">Все новости</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Подвал сайта -->
+<footer>
+    <p>© 2023 - 2026 CubeGamesStudio. Все права защищены.</p>
+    <p>Поддержка: my3dcubegames@yandex.ru</p>
+</footer>
+
+    <!-- Подключаем js скрипты -->
+    <script src="scripts/menu.js"></script>
+    <script>
+      // Reveal body after initial async content is rendered on index
+      document.addEventListener('DOMContentLoaded', function(){
+        // Index relies on news/games scripts; reveal when both have run at least once
+        let pending = 2;
+        function done(){ pending = Math.max(0, pending-1); if(pending===0) document.body.setAttribute('data-ready','true'); }
+        window.addEventListener('newsRendered', done, { once: true });
+        window.addEventListener('gamesFeaturedRendered', done, { once: true });
+        // Fallback timeout
+        setTimeout(() => document.body.setAttribute('data-ready','true'), 800);
+      });
+    </script>
+    <script src="scripts/news.js"></script>
+    <script src="scripts/games_data.js"></script>
+    <script src="scripts/games_render.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- Заголовок ссылки -->
+    <meta property="og:title" content="Контакты - CubeGamesStudio" />
+    <!-- Описание ссылки -->
+    <meta property="og:description" content="Свяжитесь с нашей студией любым удобным способом." />
+    <!-- Картинка для превью -->
+    <meta property="og:image" content="https://cubegamesstudio.ru/assets/GaF/news_1.png" />
+    <!-- Адрес страницы -->
+    <meta property="og:url" content="https://cubegamesstudio.ru/contacts.html" />
+    <!-- Опционально: тип контента -->
+    <meta property="og:type" content="website" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - CubeGamesStudio</title>
+    <link rel="preload" href="assets/fonts/Montserrat-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/Montserrat-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/Montserrat-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/Montserrat-ExtraBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключаем шрифт -->
+    <!-- Убрали внешнюю загрузку Google Fonts; используем локальные шрифты -->
+    <link rel="icon" href="logo.ico" type="image/x-icon" />
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="logo-container">
+            <a href="index.html" class="logo-link" aria-label="CubeGamesStudio — Главная">
+                <img src="assets/logo.png" alt="CubeGamesStudio Logo" class="logo">
+                <h1>CubeGamesStudio</h1>
+            </a>
+        </div>
+
+        <!-- Кнопка гамбургера -->
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+        <!-- Навигация -->
+        <nav id="nav-menu">
+            <a href="index.html">ГЛАВНАЯ</a>
+            <a href="news.html">НОВОСТИ</a>
+            <a href="games.html">ИГРЫ</a>
+            <a href="contacts.html">КОНТАКТЫ</a>
+        </nav>
+    </header>
+    
+    <!-- Основной контент -->
+    <main>
+        <!-- Hero-секция для страницы контактов -->
+        <section class="page-hero">
+            <div class="container">
+                <div class="page-hero-content">
+                    <h2>Контакты</h2>
+                    <p>Свяжитесь с нашей студией любым удобным способом. Мы всегда открыты для сотрудничества и обратной связи!</p>
+                    <p>my3dcubegames@yandex.ru</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контактная информация -->
+        <section class="contacts-section">
+            <div class="container">
+                <div class="contacts-block">
+                    <div class="contacts-buttons" id="contacts-buttons">
+                        <a class="btn btn-brand" href="https://store.steampowered.com/search/?developer=3D%20Cube%20Games" target="_blank" rel="noopener noreferrer"><img class="icon-svg" src="assets/icons/steam.svg" alt="Steam icon"><span>Steam</span></a>
+                        <a class="btn btn-brand" href="https://yandex.ru/games/developer/57641" target="_blank" rel="noopener noreferrer"><img class="icon-svg" src="assets/icons/yandex.svg" alt="Yandex Games icon"><span>Яндекс Игры</span></a>
+                        <a class="btn btn-brand" href="https://vk.com/3dcubetutorials" target="_blank" rel="noopener noreferrer"><img class="icon-svg" src="assets/icons/vk.svg" alt="VK icon"><span>VK</span></a>
+                        <a class="btn btn-brand" href="https://t.me/cubegamesstudio" target="_blank" rel="noopener noreferrer"><img class="icon-svg" src="assets/icons/telegram.svg" alt="Telegram icon"><span>Telegram</span></a>
+                        <a class="btn btn-brand" href="https://discord.gg/sKQUjTnZ" target="_blank" rel="noopener noreferrer"><img class="icon-svg" src="assets/icons/discord.svg" alt="Discord icon"><span>Discord</span></a>
+                        <a class="btn btn-brand" href="https://x.com/3DCubeGames" target="_blank" rel="noopener noreferrer"><img class="icon-svg" src="assets/icons/x.svg" alt="X icon"><span>X</span></a>
+                        <a class="btn btn-brand" href="https://www.youtube.com/@3DCubeTutorials" target="_blank" rel="noopener noreferrer"><img class="icon-svg" src="assets/icons/youtube.svg" alt="youtube icon"><span>YouTube</span></a>
+                        <a class="btn btn-brand" href="https://www.boosty.to/3dcubetutorials" target="_blank" rel="noopener noreferrer"><img class="icon-svg" src="assets/icons/boosty.svg" alt="Boosty icon"><span>Boosty</span></a>
+                        <a class="btn btn-brand" href="https://www.rustore.ru/catalog/developer/9df3887a" target="_blank" rel="noopener noreferrer"><img class="icon-svg" src="assets/icons/rustore.svg" alt="RuStore icon"><span>RuStore</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Подвал сайта -->
+    <footer>
+        <p>© 2023 - 2026 CubeGamesStudio. Все права защищены.</p>
+        <p>Поддержка: my3dcubegames@yandex.ru</p>
+    </footer>
+
+    <!-- Подключаем js скрипты -->
+    <script src="scripts/menu.js"></script>
+<!--    <script>-->
+<!--      document.addEventListener('DOMContentLoaded', function(){-->
+<!--        // Reveal after contacts and icons are in place-->
+<!--        let revealed = false;-->
+<!--        function reveal(){ if(!revealed){ document.body.setAttribute('data-ready','true'); revealed=true; } }-->
+<!--        window.addEventListener('iconsLoaded', reveal, { once: true });-->
+<!--        setTimeout(reveal, 600);-->
+<!--      });-->
+<!--    </script>-->
+<!--    <script src="scripts/icons.js"></script>-->
+<!--    <script src="scripts/components.js"></script>-->
+<!--    <script src="scripts/contacts.js"></script>-->
+</body>
+</html>

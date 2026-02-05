@@ -1,0 +1,237 @@
+/* --- Общий контейнер страницы --- */
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(54, 123, 252, 1) 0%, rgba(207, 231, 254, 1) 100%);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Контейнер игры */
+#unity-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative; /* Добавлено для позиционирования loading-cover */
+}
+
+#unity-container {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+    max-width: calc(100vw - 300px);
+    max-height: calc(100vh);
+    background: transparent;
+    overflow: hidden;
+}
+
+/* Убеждаемся, что canvas наследует размеры контейнера */
+#unity-canvas {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none !important;
+    border: 0;
+    display: block;
+}
+
+#unity-canvas:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+/* --- Блок рекламы справа --- */
+#ad-container {
+    width: 300px;
+    height: 100vh; /* Фиксированная высота во всё окно */
+    background: #222;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative; /* Для правильного позиционирования */
+}
+
+/* --- Загрузка и прогресс бар --- */
+#loading-cover {
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    width: 400px;
+    /*background: linear-gradient(180deg, rgba(54, 123, 252, 1) 0%, rgba(207, 231, 254, 1) 100%);*/
+    z-index: 1000;
+}
+
+#unity-loading-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+#unity-progress-bar-empty {
+    width: 100% !important;
+    height: 20px !important;
+    background: rgba(255, 255, 255, 0.3);
+    margin-top: 2em;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+#unity-progress-bar-full {
+    width: 0;
+    height: 100%;
+    background: #FFDF73;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+/* --- Логотип Unity --- */
+#unity-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#unity-logo img {
+    width: 50%;
+    max-width: 200px;
+    min-width: 100px;
+    height: auto;
+    /* Fallback если изображение не загрузится */
+}
+
+/* --- Убираем спиннер --- */
+.spinner {
+    display: none !important;
+}
+
+/* --- Адаптивность для мобильных устройств --- */
+@media (max-width: 800px) {
+
+    #unity-container {
+        max-width: 100vw;
+        max-height: 100vh;
+    }
+
+    #ad-container {
+        display: none; /* Полностью скрываем рекламу */
+    }
+
+    #unity-loading-bar {
+        width: 70%;
+    }
+
+    #unity-logo img {
+        width: 40%;
+        min-width: 80px;
+    }
+}
+
+/* --- Адаптивность для очень узких экранов --- */
+@media (max-width: 500px) {
+    #ad-container {
+        height: 200px;
+    }
+
+    #unity-container {
+        max-height: calc(100vh - 200px);
+    }
+
+    #unity-logo img {
+        width: 30%;
+        min-width: 60px;
+    }
+}
+
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+#unity-container {
+  position: fixed;
+  display: flex;
+  aspect-ratio: 16/9;
+  width: min(calc(100vh*(16/9)), 100vw);
+  height: auto;
+}
+
+
+#unity-canvas {
+    background: linear-gradient(180deg, rgba(54, 123, 252, 1) 0%, rgba(207, 231, 254, 1) 100%);
+}
+
+
+
+body {
+    background: linear-gradient(180deg, rgba(54, 123, 252, 1) 0%, rgba(207, 231, 254, 1) 100%);
+}
+
+
+
+.spinner {
+    border-top: 1.1em solid rgba(54, 123, 252, 0.2);
+    border-right: 1.1em solid rgba(54, 123, 252, 0.2);
+    border-bottom: 1.1em solid rgba(54, 123, 252, 0.2);
+    border-left: 1.1em solid rgba(207, 231, 254, 1);
+}
+
+#unity-progress-bar-empty {
+    border-color: rgba(54, 123, 252, 0.7);
+    width: 30%;
+}
+
+#unity-progress-bar-full {
+    background: rgba(207, 231, 254, 1);
+}
+
+.light #unity-progress-bar-empty {
+    border-color: rgba(54, 123, 252, 0.7);
+}
+
+.light #unity-progress-bar-full {
+    background: rgba(207, 231, 254, 1);
+}
+
+
+
+#unity-progress-bar-empty {
+    height: 24px;
+}
+
+
+#unity-progress-bar-empty {
+    border-radius: 12px;
+}
+
+#unity-progress-bar-full {
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}

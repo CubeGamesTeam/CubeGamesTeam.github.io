@@ -1,0 +1,39 @@
+/play/*/Build/*.framework.js.unityweb
+  Content-Type: application/javascript
+  Content-Encoding: br
+  Cache-Control: public, max-age=31536000
+/play/*/Build/*.framework.js.br
+  Content-Type: application/javascript
+  Content-Encoding: br
+  Cache-Control: public, max-age=31536000
+
+/play/*/Build/*.wasm.unityweb
+  Content-Type: application/wasm
+  Content-Encoding: br
+  Cache-Control: public, max-age=31536000
+/play/*/Build/*.wasm.br
+  Content-Type: application/wasm
+  Content-Encoding: br
+  Cache-Control: public, max-age=31536000
+
+/play/*/Build/*.data.unityweb
+  Content-Type: application/octet-stream
+  Content-Encoding: br
+  Cache-Control: public, max-age=31536000
+/play/*/Build/*.data.br
+  Content-Type: application/octet-stream
+  Content-Encoding: br
+  Cache-Control: public, max-age=31536000
+
+/play/*/Build/*.loader.js
+  Content-Type: application/javascript
+  Cache-Control: public, max-age=0, must-revalidate
+/play/*/Build/*.loader.br
+  Content-Type: application/javascript
+  Cache-Control: public, max-age=0, must-revalidate
+
+/assets/*.json
+  Access-Control-Allow-Origin: none
+/assets/data/*.json
+  Access-Control-Allow-Origin: none
+

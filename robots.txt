@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /assets/data/
+Disallow: /news/
+Disallow: /play/
+Disallow: /scripts/
+Disallow: /game.html
+Disallow: /news_post.html
+
+Sitemap: https://cubegamesstudio.ru/sitemap.xml

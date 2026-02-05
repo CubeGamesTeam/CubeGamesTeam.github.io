@@ -1,0 +1,75 @@
+[
+  {
+    "type": "steam",
+    "label": "Steam",
+    "href": "https://store.steampowered.com/search/?developer=3D%20Cube%20Games",
+    "icon": "steam",
+    "background": "#171A21",
+    "color": "#FFFFFF"
+  },
+  {
+    "type": "yandex",
+    "label": "Яндекс Игры",
+    "href": "https://yandex.ru/games/developer/57641",
+    "icon": "yandex",
+    "background": "#FFFFFF",
+    "color": "#FFFFFF"
+  },
+  {
+    "type": "vk",
+    "label": "VK",
+    "href": "https://vk.com/3dcubetutorials",
+    "icon": "vk",
+    "background": "#0077FF",
+    "color": "#FFFFFF"
+  },
+  {
+    "type": "telegram",
+    "label": "Telegram",
+    "href": "https://t.me/cubegamesstudio",
+    "icon": "telegram",
+    "background": "#26A5E4",
+    "color": "#FFFFFF"
+  },
+  {
+    "type": "discord",
+    "label": "Discord",
+    "href": "https://discord.gg/sKQUjTnZ",
+    "icon": "discord",
+    "background": "#5865F2",
+    "color": "#FFFFFF"
+  },
+  {
+    "type": "x",
+    "label": "X",
+    "href": "https://x.com/3DCubeGames",
+    "icon": "x",
+    "background": "#000000",
+    "color": "#FFFFFF"
+  },
+  {
+    "type": "youtube",
+    "label": "YouTube",
+    "href": "https://www.youtube.com/@3DCubeTutorials",
+    "icon": "youtube",
+    "background": "#FF0000",
+    "color": "#FFFFFF"
+  },
+  {
+    "type": "boosty",
+    "label": "Boosty",
+    "href": "boosty.to/3dcubetutorials",
+    "icon": "boosty",
+    "background": "#FF5310",
+    "color": "#FFFFFF"
+  },
+  {
+    "type": "rustore",
+    "label": "RuStore",
+    "href": "https://www.rustore.ru/catalog/developer/9df3887a",
+    "icon": "rustore",
+    "background": "#1170FF",
+    "color": "#FFFFFF"
+  }
+]
+

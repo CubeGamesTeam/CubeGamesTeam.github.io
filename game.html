@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- Заголовок ссылки -->
+    <meta property="og:title" content="CubeGamesStudio" />
+    <!-- Картинка для превью -->
+    <meta property="og:image" content="https://cubegamesstudio.ru/assets/GaF/news_1.png" />
+    <!-- Опционально: тип контента -->
+    <meta property="og:type" content="website" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра - CubeGamesStudio</title>
+    <link rel="preload" href="assets/fonts/Montserrat-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/Montserrat-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/Montserrat-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/Montserrat-ExtraBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+    <script defer src="scripts/menu.js"></script>
+    <script defer src="scripts/games_data.js"></script>
+    <script defer src="scripts/icons.js"></script>
+    <script defer src="scripts/components.js"></script>
+    <script defer src="scripts/game-detail.js"></script>
+    <script defer src="scripts/game_detail_page.js"></script>
+    <meta name="robots" content="index,follow" />
+  </head>
+<body class="page-game" data-ready="false">
+<!-- Шапка сайта -->
+<header>
+  <div class="logo-container">
+    <a href="index.html" class="logo-link" aria-label="CubeGamesStudio — Главная">
+      <img src="assets/logo.png" alt="CubeGamesStudio Logo" class="logo">
+      <h1>CubeGamesStudio</h1>
+    </a>
+  </div>
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+  <nav id="nav-menu">
+    <a href="index.html">ГЛАВНАЯ</a>
+    <a href="news.html">НОВОСТИ</a>
+    <a href="games.html">ИГРЫ</a>
+    <a href="contacts.html">КОНТАКТЫ</a>
+  </nav>
+</header>
+
+<!-- Хлебные крошки -->
+<div class="breadcrumbs">
+  <div class="container">
+    <a href="index.html">Главная</a>
+    <span>/</span>
+    <a href="games.html">Игры</a>
+    <span>/</span>
+    <span>Игра</span>
+  </div>
+</div>
+
+<!-- Основной контент -->
+<main>
+  <section class="game-hero" data-loading="true">
+    <div class="container">
+      <div class="game-hero-content">
+        <div class="game-media">
+          <div class="main-screenshot">
+            <div class="screenshot-placeholder">
+              <img id="main-image" src="" alt="Скриншот">
+              <button type="button" class="gallery-nav prev" aria-label="Предыдущий скриншот">‹</button>
+              <button type="button" class="gallery-nav next" aria-label="Следующий скриншот">›</button>
+            </div>
+          </div>
+          <div class="screenshot-thumbnails"></div>
+        </div>
+        <div class="game-info-sidebar">
+          <h1 class="game-title">Название игры</h1>
+          <div class="game-subtitle"></div>
+          <div class="purchase-buttons"></div>
+<!--          <div class="game-tags-large"></div>-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="game-description">
+    <div class="container">
+      <h2>Об этой игре</h2>
+      <div class="description-content"></div>
+    </div>
+  </section>
+
+  <section class="game-features" data-loading="true">
+    <div class="container">
+      <h2>Ключевые особенности</h2>
+      <div class="features-grid"></div>
+    </div>
+  </section>
+
+  <!-- Mount точка для похожих игр -->
+  <div id="similar-mount"></div>
+</main>
+
+<footer>
+    <p>© 2023 - 2026 CubeGamesStudio. Все права защищены.</p>
+    <p>Поддержка: my3dcubegames@yandex.ru</p>
+</footer>
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+    // Reveal after initial detail scripts have a chance to populate
+    setTimeout(function(){ document.body.setAttribute('data-ready','true'); }, 600);
+  });
+</script>
+</body>
+</html>
+
+

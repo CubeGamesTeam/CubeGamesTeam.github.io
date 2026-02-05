@@ -1,0 +1,169 @@
+[
+  {
+    "slug": "Fruits-2025-09-26",
+    "title": "Бросай и Соединяй: Фруктовые Приключения обновились!",
+    "date": "2025-09-26",
+    "excerpt": "Глобальные переработки и дополнения, подробности и детали ниже",
+    "previewImage": "assets/Fruits/screen2new.jpg",
+    "detailImage": "assets/Fruits/screen2new.jpg",
+    "image": "assets/Fruits/screen2new.jpg",
+    "contentUrl": "news/content/Fruits-2025-09-26.html",
+    "tags": [
+      "релиз",
+      "яндекс"
+    ],
+    "cta": [
+      {
+        "label": "Яндекс.Игры",
+        "href": "https://yandex.ru/games/app/276856",
+        "variant": "yandex"
+      }
+    ]
+  },
+  {
+    "slug": "ObbyGaF-2025-08-25",
+    "title": "Обновление! Пушки не Игрушки: Обби Паркур",
+    "date": "2025-08-25",
+    "excerpt": "Оптимизация и мобильное управление",
+    "previewImage": "assets/ObbyGaF/screen5.jpg",
+    "detailImage": "assets/ObbyGaF/screen5.jpg",
+    "image": "assets/ObbyGaF/screen5.jpg",
+    "contentUrl": "news/content/ObbyGaF-2025-08-25.html",
+    "tags": [
+      "релиз",
+      "яндекс"
+    ],
+    "cta": [
+      {
+        "label": "Яндекс.Игры",
+        "href": "https://yandex.ru/games/app/457979",
+        "variant": "yandex"
+      },
+      {
+        "label": "Играть",
+        "href": "play/ObbyGaF/index.html",
+        "variant": "insite"
+      }
+    ]
+  },
+  {
+    "slug": "ObbyGaF-2025-08-18",
+    "title": "Релиз!",
+    "date": "2025-08-18",
+    "excerpt": "Мы прошли модерацию в Яндекс Играх, теперь можно найти и поиграть, поставить рекорд, написать отзыв и тд и тп:)",
+    "previewImage": "assets/ObbyGaF/screen7.jpg",
+    "detailImage": "assets/ObbyGaF/screen7.jpg",
+    "image": "assets/ObbyGaF/screen7.jpg",
+    "contentUrl": "news/content/ObbyGaF-2025-08-18.html",
+    "tags": [
+      "релиз",
+      "яндекс"
+    ],
+    "cta": [
+      {
+        "label": "Яндекс.Игры",
+        "href": "https://yandex.ru/games/app/457979",
+        "variant": "yandex"
+      }
+    ]
+  },
+  {
+    "slug": "ObbyGaF-2025-08-04",
+    "title": "Новая игра в разработке!",
+    "date": "2025-08-04",
+    "excerpt": "Готовы попрыгать по кубам?",
+    "previewImage": "assets/ObbyGaF/cover.jpg",
+    "detailImage": "assets/ObbyGaF/screen7.jpg",
+    "image": "assets/ObbyGaF/screen7.jpg",
+    "contentUrl": "news/content/ObbyGaF-2025-08-04.html",
+    "tags": [
+      "релиз",
+      "яндекс"
+    ]
+  },
+  {
+    "slug": "DH-release-2025-03-10",
+    "title": "\"Охотники на Демонов\" уже в Steam!",
+    "date": "2025-03-10",
+    "excerpt": "\uD83D\uDD25 Наше приключение официально началось! \uD83D\uDD25",
+    "previewImage": "assets/dh/cover1.jpg",
+    "detailImage": "assets/dh/cover1.jpg",
+    "image": "assets/dh/cover1.jpg",
+    "contentUrl": "news/content/DH-release-2025-03-10.html",
+    "tags": [
+      "релиз",
+      "стим"
+    ],
+    "cta": [
+      {
+        "label": "Steam",
+        "href": "https://store.steampowered.com/app/3183640",
+        "variant": "steam"
+      }
+    ]
+  },
+  {
+    "slug": "DH-release-2025-01-11",
+    "title": "Охотники на Демонов: Демоверсия!",
+    "date": "2025-01-11",
+    "excerpt": "Встречайте долгожданную демоверсию нашей игры \"Охотники на Демонов\"!",
+    "previewImage": "assets/dh/cover.jpg",
+    "detailImage": "assets/dh/cover.jpg",
+    "image": "assets/dh/cover.jpg",
+    "contentUrl": "news/content/DH-release-2025-01-11.html",
+    "tags": [
+      "релиз",
+      "стим"
+    ],
+    "cta": [
+      {
+        "label": "Steam",
+        "href": "https://store.steampowered.com/app/3183640",
+        "variant": "steam"
+      }
+    ]
+  },
+  {
+    "slug": "GaF-update-2024-10-03",
+    "title": "Большое обновление Demo-версии!",
+    "date": "2024-10-03",
+    "excerpt": "Новые уровни, значительные графические изменения, обновленный интерфейс, много музыки.",
+    "previewImage": "assets/GaF/news_1.png",
+    "detailImage": "assets/GaF/news_1.png",
+    "image": "assets/GaF/news_1.png",
+    "contentUrl": "news/content/GaF-update-2024-10-03.html",
+    "tags": [
+      "релиз",
+      "update",
+      "стим"
+    ],
+    "cta": [
+      {
+        "label": "Steam",
+        "href": "https://store.steampowered.com/app/3003640",
+        "variant": "steam"
+      }
+    ]
+  },
+  {
+    "slug": "GaF-release-2024-06-30",
+    "title": "Релиз Demo-версии!",
+    "date": "2024-06-30",
+    "excerpt": "Надеемся, что вы готовы разрушить пару десятков башен...",
+    "previewImage": "assets/GaF/store_page_background.png",
+    "detailImage": "assets/GaF/store_page_background.png",
+    "image": "assets/GaF/store_page_background.png",
+    "contentUrl": "news/content/GaF-release-2024-06-30.html",
+    "tags": [
+      "релиз",
+      "стим"
+    ],
+    "cta": [
+      {
+        "label": "Steam",
+        "href": "https://store.steampowered.com/app/3003640",
+        "variant": "steam"
+      }
+    ]
+  }
+]

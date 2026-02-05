@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- Заголовок ссылки -->
+    <meta property="og:title" content="Новость - CubeGamesStudio" />
+    <!-- Описание ссылки -->
+    <meta property="og:description" content="У нас что-то новое!" />
+    <!-- Картинка для превью -->
+    <meta property="og:image" content="https://cubegamesstudio.ru/assets/GaF/news_1.png" />
+    <!-- Опционально: тип контента -->
+    <meta property="og:type" content="website" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новость - CubeGamesStudio</title>
+    <link rel="preload" href="assets/fonts/Montserrat-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/Montserrat-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/Montserrat-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/Montserrat-ExtraBold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.ico" type="image/x-icon" />
+    <script defer src="scripts/news_detail.js"></script>
+    <script defer src="scripts/icons.js"></script>
+    <script defer src="scripts/menu.js"></script>
+    <script defer src="scripts/news.js"></script>
+    <meta name="robots" content="noindex,follow" />
+</head>
+<body class="page-news-post" data-ready="false">
+<header>
+    <div class="logo-container">
+        <a href="index.html" class="logo-link" aria-label="CubeGamesStudio — Главная">
+            <img src="assets/logo.png" alt="CubeGamesStudio Logo" class="logo">
+            <h1>CubeGamesStudio</h1>
+        </a>
+    </div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <nav id="nav-menu">
+        <a href="index.html">ГЛАВНАЯ</a>
+        <a href="news.html" class="active">НОВОСТИ</a>
+        <a href="games.html">ИГРЫ</a>
+        <a href="contacts.html">КОНТАКТЫ</a>
+    </nav>
+    </header>
+
+<main>
+    <!-- Хлебные крошки -->
+    <div class="breadcrumbs" id="news-breadcrumbs">
+        <div class="container">
+            <a href="index.html">Главная</a>
+            <span>/</span>
+            <a href="news.html">Новости</a>
+            <span>/</span>
+            <span id="news-breadcrumb-title">Загрузка...</span>
+        </div>
+    </div>
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h2 id="news-title">Загрузка...</h2>
+                <div id="news-meta" class="news-meta"></div>
+<!--                <div id="news-tags" class="news-tags"></div>-->
+            </div>
+        </div>
+    </section>
+
+    <section class="latest-news">
+        <div class="container">
+                <article class="news-card" id="news-content-wrapper" data-loading="true">
+                <div class="news-image" id="news-image">
+                    <div style="height: 300px; background: #2a2a2a; display: flex; align-items: center; justify-content: center; color: #666;">
+                        Загрузка изображения...
+                    </div>
+                </div>
+                <div id="news-content">
+                    <div style="padding: 20px; text-align: center; color: #666;">
+                        <p>Загружаем содержимое новости...</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2023 - 2026 CubeGamesStudio. Все права защищены.</p>
+    <p>Поддержка: my3dcubegames@yandex.ru</p>
+    </footer>
+
+    <!-- Скрипт для управления загрузкой страницы -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+        // Reveal after news detail is loaded
+        let revealed = false;
+        function reveal(){ if(!revealed){ document.body.setAttribute('data-ready','true'); revealed=true; } }
+        window.addEventListener('newsDetailLoaded', reveal, { once: true });
+        setTimeout(reveal, 800); // Fallback timeout
+      });
+    </script>
+</body>
+    </html>
+

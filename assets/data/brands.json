@@ -1,0 +1,18 @@
+{
+  "email": { "label": "Email", "background": "#171A21", "color": "#FFFFFF", "iconUrl": "assets/icons/email.svg" },
+  "steam": { "label": "Steam", "background": "#171A21", "color": "#FFFFFF", "iconUrl": "assets/icons/steam.svg" },
+  "vk": { "label": "VK", "background": "#0077FF", "color": "#FFFFFF", "iconUrl": "assets/icons/vk.svg" },
+  "vkplay": { "label": "VK Play", "background": "#0077FF", "color": "#FFFFFF", "iconUrl": "assets/icons/vkplay.svg" },
+  "telegram": { "label": "Telegram", "background": "#26A5E4", "color": "#FFFFFF", "iconUrl": "assets/icons/telegram.svg" },
+  "youtube": { "label": "YouTube", "background": "#FF0000", "color": "#FFFFFF", "iconUrl": "assets/icons/youtube.svg" },
+  "discord": { "label": "Discord", "background": "#5865F2", "color": "#FFFFFF", "iconUrl": "assets/icons/discord.svg" },
+  "x": { "label": "X", "background": "#000000", "color": "#FFFFFF", "iconUrl": "assets/icons/x.svg" },
+  "artstation": { "label": "ArtStation", "background": "#13AFF0", "color": "#FFFFFF", "iconUrl": "assets/icons/artstation.svg" },
+  "boosty": { "label": "Boosty", "background": "#FF5310", "color": "#FFFFFF", "iconUrl": "assets/icons/boosty.svg" },
+  "rustore": { "label": "RuStore", "background": "#1170FF", "color": "#FFFFFF", "iconUrl": "assets/icons/rustore.svg" },
+  "googleplay": { "label": "Google Play", "background": "#000000", "color": "#FFFFFF", "iconUrl": "assets/icons/googleplay.svg" },
+  "yandex": { "label": "Яндекс Игры", "background": "#FFCC00", "color": "#FFFFFF", "iconUrl": "assets/icons/yandex.svg" },
+  "external": { "label": "External Link", "background": "#666666", "color": "#FFFFFF", "iconUrl": "assets/icons/external.svg" },
+  "insite": { "label": "Играть", "background": "#666666", "color": "#FFFFFF", "iconUrl": "assets/icons/logo.svg" }
+}
+

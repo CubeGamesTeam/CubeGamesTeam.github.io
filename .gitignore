@@ -1,0 +1,86 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+#[Bb]uild - commented out since FMOD has required folder with this name
+/[Bb]uilds/
+/Assets-Images/
+/[Ll]ibrary/
+/Logs/
+/UserSettings/
+sysinfo.txt
+*.stackdump
+/Assets/AssetStoreTools*
+*.apk
+*.unitypackage
+/Assets/mcs.rsp*
+/Assets/csc.rsp*
+/Assets/Plugins/Personal*
+/Assets/PluginYourGames/Editor/SavesEditorYG2.json
+/Assets/PluginYourGames/Editor/SavesEditorYG2.json.meta
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+*.pidb.meta
+/*.suo
+/*.sln
+/*.user
+/*.unityproj
+/*.booproj
+.consulo/
+/*.tmp
+/*.svd
+
+# =============== #
+# Rider files #
+# =============== #
+.idea/
+/Assets/Plugins/Editor/JetBrains*
+/*sln.DotSettings.user
+
+# ============== #
+# FMOD generated #
+# ============== #
+/Assets/FMODStudioCache.asset
+/Assets/FMODStudioCache.asset.meta
+fmod.log
+fmod_editor.log
+
+# ==================================== #
+# FMOD Studio (in folder "FMOD Project") #
+# ==================================== #
+/FMOD Project/**/.user/
+/FMOD Project/**/.unsaved/
+/FMOD Project/**/.cache/
+/FMOD Project/**/.restore/
+
+# Never ignore DLLs in the FMOD subfolder.
+!/[Aa]ssets/Plugins/FMOD/**/lib/*
+
+# Don't ignore images and gizmos used by FMOD in the Unity Editor.
+!/[Aa]ssets/Gizmos/FMOD/*
+!/[Aa]ssets/Editor Default Resources/FMOD/*
+
+# Ignore the Cache folder since it is updated locally.
+/[Aa]ssets/Plugins/FMOD/Cache/*
+
+# Ignore bank files in the StreamingAssets folder.
+/[Aa]ssets/StreamingAssets/**/*.bank
+/[Aa]ssets/StreamingAssets/**/*.bank.meta
+
+# If the source bank files are kept outside of the StreamingAssets folder then these can be ignored.
+# Log files can be ignored.
+fmod_editor.log
+
+#ignoring fmod bank files, they can be build from the project localy
+
+/fmod/.cache
+/fmod/.unsaved
+/fmod/.user
